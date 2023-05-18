@@ -1,0 +1,108 @@
+/*
+
+Vivado v2013.4 (64-bit)
+SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+Process ID: 10825
+
+Current time: 	5/18/23 10:55:50 AM
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: NAME="Ubuntu"
+Version: 5.4.0-148-generic
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/home/nourhan/Vivado/2013.4/tps/lnx64/jre
+
+User name: 	nourhan
+User directory: /home/nourhan/Documents/AccDNN/build/ips_prj/vio_0_example
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+GUI Allocated memory:	159 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 4130 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// cb:I (bT:JFrame):  Sourcing Tcl script '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0_ex.tcl' : addNotify
+// Tcl Message: source /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0_ex.tcl 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// Tcl Message: # set srcIpDir "/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0" # create_project -name vio_0_example -force 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 83 mb (+84849kb) [00:00:09]
+// [Engine Memory]: 4,100 mb (+4147239kb) [00:00:09]
+// [Engine Memory]: 4,124 mb (+25165kb) [00:00:10]
+// [Engine Memory]: 4,127 mb (+3153kb) [00:00:10]
+// [GUI Memory]: 94 mb (+10935kb) [00:00:11]
+// [Engine Memory]: 4,130 mb (+3391kb) [00:00:11]
+// [GUI Memory]: 96 mb (+2148kb) [00:00:11]
+// [GUI Memory]: 97 mb (+825kb) [00:00:11]
+// [GUI Memory]: 97 mb (+871kb) [00:00:12]
+// [Engine Memory]: 4,130 mb (+4kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 10:55:50 AM
+// Tcl Message: create_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:05 . Memory (MB): peak = 4802.922 ; gain = 45.418 
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// Tcl Message: # set_property part xc7z020clg400-1 [current_project] 
+// TclEventType: PART_MODIFIED
+// Tcl Message: # set_property target_language verilog [current_project] # set_property simulator_language MIXED [current_project] # import_ip -files [list [file join $srcIpDir vio_0.xci]] -name vio_0 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 4,254 mb (+129835kb) [00:00:15]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/nourhan/Vivado/2013.4/data/ip'. 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 4967.164 ; gain = 0.000 
+// Tcl Message: # reset_target {example} [get_ips vio_0] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: # proc _filter_supported_targets {targets ip} { #   set res {} #   set all [get_property SUPPORTED_TARGETS $ip] #   foreach target $targets { #     lappend res {*}[lsearch -all -inline -nocase $all $target] #   } #   return $res # } # generate_target [_filter_supported_targets {instantiation_template synthesis simulation} [get_ips vio_0]] [get_ips vio_0] 
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'vio_0'. Target already exists and is up to date. INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'vio_0'. Target already exists and is up to date. INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'vio_0'. Target already exists and is up to date. 
+// Tcl Message: # add_files -scan_for_includes -fileset [current_fileset] \ #   [list [file join $srcIpDir example_vio_0.v]] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 102 mb (+4360kb) [00:00:22]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: # add_files -fileset [current_fileset -constrset] \ #   [list [file join $srcIpDir example_vio_0.xdc]] 
+// Tcl Message: INFO: [Designutils 20-336] INTERNAL UCF: Changing the constrs_type of fileset 'constrs_1' to 'XDC'. 
+// Tcl Message: # import_files # set_property TOP [lindex [find_top] 0] [current_fileset] # update_compile_order -fileset [current_fileset] # update_compile_order -fileset [current_fileset -simset] # set dfile /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/oepdone.txt # set doneFile [open $dfile w] # puts $doneFile "Open Example Project DONE" # close $doneFile 
+// [GUI Memory]: 109 mb (+7556kb) [00:00:23]
+dismissDialog ("Sourcing Tcl script '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0_ex.tcl'"); // cb:I (bT:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, example_design (example_vio_0.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, example_design (example_vio_0.v)]", 1, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 110 mb (+1398kb) [00:00:29]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, example_design (example_vio_0.v)]", 1); // o:f (u:JPanel, bT:JFrame)

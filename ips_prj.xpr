@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Product Version: Vivado v2013.4 (64-bit)-->
+<Project Version="6" Minor="14" Path="/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.xpr">
+	<FileSet Dir="sources_1" File="fileset.xml"/>
+	<FileSet Dir="constrs_1" File="fileset.xml"/>
+	<FileSet Dir="sim_1" File="fileset.xml"/>
+	<FileSet Dir="pool3_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="pool2_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="pool1_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip2_wm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip2_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip2_bm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip1_wm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip1_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="ip1_bm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv3_wm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv3_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv3_bm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv2_wm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv2_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv2_bm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv1_wm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv1_rm_ram" File="fileset.xml"/>
+	<FileSet Dir="conv1_bm_ram" File="fileset.xml"/>
+	<FileSet Dir="mul16_unsigned" File="fileset.xml"/>
+	<FileSet Dir="mul16x16_signed" File="fileset.xml"/>
+	<FileSet Dir="mul24x8_signed" File="fileset.xml"/>
+	<RunSet Dir="runs" File="runs.xml"/>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<Config>
+		<Option Name="Id" Val="72d0dd5859a645d5b0d97123fc6e21cc"/>
+		<Option Name="Part" Val="xc7z020clg400-1"/>
+		<Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+		<Option Name="Board" Val=""/>
+		<Option Name="ActiveSimSet" Val="sim_1"/>
+	</Config>
+</Project>
+

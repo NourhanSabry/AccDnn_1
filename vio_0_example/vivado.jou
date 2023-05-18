@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu May 18 11:55:33 2023
+# Process ID: 10825
+# Log file: /home/nourhan/Documents/AccDNN/build/ips_prj/vio_0_example/vivado.log
+# Journal file: /home/nourhan/Documents/AccDNN/build/ips_prj/vio_0_example/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0_ex.tcl

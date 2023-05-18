@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x8127a9) [0x7f19428867a9]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7f194288c216]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12980) [0x7f196b748980]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x5b0ca9) [0x7f1942624ca9]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x886565) [0x7f19428fa565]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x739053) [0x7f19427ad053]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x73a749) [0x7f19427ae749]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x73b0a2) [0x7f19427af0a2]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x73b1e0) [0x7f19427af1e0]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x73b406) [0x7f19427af406]
+/home/nourhan/Vivado/2013.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x5f2daf) [0x7f1942666daf]
+[0x7f193b832de8]

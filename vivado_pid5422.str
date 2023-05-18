@@ -1,0 +1,1255 @@
+/*
+
+Vivado v2013.4 (64-bit)
+SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+Process ID: 5422
+
+Current time: 	5/18/23 10:36:29 AM
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: NAME="Ubuntu"
+Version: 5.4.0-148-generic
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	/home/nourhan/Vivado/2013.4/tps/lnx64/jre
+
+User name: 	nourhan
+User directory: /home/nourhan/Documents/AccDNN/build/ips_prj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+GUI Allocated memory:	154 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 4194 mb
+
+*/
+
+// TclEventType: START_GUI
+selectButton (PAResourceAtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // h:j (JPanel:JComponent, bT:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 10:36:30 AM
+selectMenuItem ((HResource) null, "/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.xpr"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// cb:I (bT:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 mb (+63375kb) [00:00:17]
+// [Engine Memory]: 4,207 mb (+4259916kb) [00:00:17]
+// [GUI Memory]: 75 mb (+12656kb) [00:00:17]
+// [GUI Memory]: 80 mb (+4984kb) [00:00:18]
+// [Engine Memory]: 4,211 mb (+3915kb) [00:00:18]
+// [Engine Memory]: 4,221 mb (+10870kb) [00:00:19]
+// [GUI Memory]: 105 mb (+26725kb) [00:00:20]
+// [GUI Memory]: 106 mb (+672kb) [00:00:20]
+// [Engine Memory]: 4,229 mb (+8388kb) [00:00:20]
+// [GUI Memory]: 111 mb (+5668kb) [00:00:21]
+// [Engine Memory]: 4,251 mb (+23273kb) [00:00:21]
+// [GUI Memory]: 114 mb (+2688kb) [00:00:21]
+// [GUI Memory]: 116 mb (+2476kb) [00:00:22]
+// Tcl Message: open_project /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/nourhan/Vivado/2013.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:12 . Memory (MB): peak = 4932.840 ; gain = 53.285 
+// [Engine Memory]: 4,255 mb (+4194kb) [00:00:23]
+// Elapsed time: 13 seconds
+dismissDialog ("Open Project"); // cb:I (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,259 mb (+4194kb) [00:00:25]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 116 mb (+260kb) [00:00:37]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 118 mb (+1994kb) [00:00:37]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 119 mb (+999kb) [00:00:37]
+// Elapsed time: 170 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 3); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // cb:I (bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 3); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // cb:I (bT:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "vio"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, bT:JFrame)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 247); // F:aj (JViewport:JComponent, bT:JFrame)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 247, false, false, false, false, true); // F:aj (JViewport:JComponent, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// [Engine Memory]: 4,259 mb (+73kb) [00:03:21]
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Customize IP: addNotify
+// [Engine Memory]: 4,260 mb (+311kb) [00:03:23]
+// [GUI Memory]: 122 mb (+2680kb) [00:03:23]
+dismissDialog ("Customize IP"); // cb:I (bT:JFrame)
+// [GUI Memory]: 128 mb (+6404kb) [00:03:25]
+// [GUI Memory]: 132 mb (+4611kb) [00:03:30]
+// Elapsed time: 17 seconds
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..0)", 1); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..0)", 2); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "General Options", 0); // bW:g (t:JPanel, q:I)
+// Elapsed time: 61 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:I)
+// TclEventType: CREATE_IP_CORE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: create_ip -name vio -vendor xilinx.com -library ip -module_name vio_0 
+// cb:I (q:I):  Customize IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'... 
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,265 mb (+5898kb) [00:04:47]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 4,266 mb (+1048kb) [00:04:47]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,269 mb (+3047kb) [00:04:48]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: generate_target all [get_files  /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'vio_0'. Target already exists and is up to date. INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'... 
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'... 
+// [Engine Memory]: 4,274 mb (+4882kb) [00:04:55]
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// [GUI Memory]: 134 mb (+2239kb) [00:04:55]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 19); // w:Q (v:u, bT:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 10:41:20 AM
+// af:bw (bT:JFrame): Synthesis is Out-of-date: addNotify
+selectButton (RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, af:bw)
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+dismissDialog ("Synthesis is Out-of-date"); // af:bw (bT:JFrame)
+dismissDialog ("Synthesis is Out-of-date"); // af:bw (bT:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 4,278 mb (+4194kb) [00:05:03]
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu May 18 11:41:34 2023] Launched synth_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_1/runme.log [Thu May 18 11:41:34 2023] Launched impl_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 4964.797 ; gain = 4.000 
+// Elapsed time: 11 seconds
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// Elapsed time: 16 seconds
+selectTab ((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bT:JFrame)
+// [Engine Memory]: 4,284 mb (+6660kb) [00:05:32]
+// [Engine Memory]: 4,290 mb (+6340kb) [00:05:32]
+// [Engine Memory]: 4,293 mb (+3145kb) [00:05:32]
+// [Engine Memory]: 4,298 mb (+4857kb) [00:05:32]
+// [Engine Memory]: 4,303 mb (+5242kb) [00:05:32]
+// [Engine Memory]: 4,306 mb (+2785kb) [00:05:32]
+// [Engine Memory]: 4,307 mb (+1048kb) [00:05:32]
+// [Engine Memory]: 4,309 mb (+2113kb) [00:05:32]
+// [Engine Memory]: 4,311 mb (+2097kb) [00:05:32]
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 10:41:55 AM
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 361 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+// Elapsed time: 12 seconds
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f:g (e:JPanel, bT:JFrame)
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 11 seconds
+setText ("Input  Probe  Count", "256"); // bX:am (t:JPanel, q:I)
+setText ("Input  Probe  Count", "64"); // bX:am (t:JPanel, q:I)
+setText ("Output Probe Count", "64", true); // bX:am (t:JPanel, q:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:I)
+// cb:I (q:I):  Re-customize IP : addNotify
+// [GUI Memory]: 136 mb (+1537kb) [00:12:44]
+// Tcl Message: set_property -dict [list CONFIG.C_NUM_PROBE_IN {64} CONFIG.C_NUM_PROBE_OUT {64}] [get_ips vio_0] 
+// TclEventType: FILESET_UPDATE_IP
+// [GUI Memory]: 137 mb (+1115kb) [00:12:45]
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: generate_target all [get_files  /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'... 
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 145 mb (+8202kb) [00:12:53]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'... 
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 4997.504 ; gain = 0.000 
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 54 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 3); // o:f (u:JPanel, bT:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 3); // o:f (u:JPanel, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "mul16_signed_synth_1 ; xc7z020clg400-1 ; mul16_signed ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; synth_design Complete! ; 100 ; Mon May 15 22:16:48 EET 2023 ; 00:05:06 ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 3); // Y:aj (JViewport:JComponent, bT:JFrame)
+// [GUI Memory]: 145 mb (+205kb) [00:13:55]
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "mul16_signed_synth_1 ; xc7z020clg400-1 ; mul16_signed ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; synth_design Complete! ; 100 ; Mon May 15 22:16:48 EET 2023 ; 00:05:06 ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 3, false, false, false, false, true); // Y:aj (JViewport:JComponent, bT:JFrame) - DOUBLE CLICK
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 14); // o:f (u:JPanel, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 20); // o:f (u:JPanel, bT:JFrame)
+// TclEventType: RUN_FAILED
+// O:af (bT:JFrame): Implementation Failed: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Implementation Failed"); // O:af (bT:JFrame)
+// Elapsed time: 11 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 22); // o:f (u:JPanel, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 23); // o:f (u:JPanel, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files]", 26); // o:f (u:JPanel, bT:JFrame)
+// [GUI Memory]: 147 mb (+2041kb) [00:14:38]
+// [GUI Memory]: 149 mb (+2022kb) [00:14:39]
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, V:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu May 18 11:51:03 2023] Launched synth_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_1/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// [GUI Memory]: 149 mb (+480kb) [00:14:45]
+// [GUI Memory]: 151 mb (+1989kb) [00:14:47]
+// [GUI Memory]: 153 mb (+1894kb) [00:14:47]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+// [GUI Memory]: 155 mb (+2049kb) [00:14:48]
+// [GUI Memory]: 157 mb (+1899kb) [00:14:48]
+// [GUI Memory]: 157 mb (+341kb) [00:14:48]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..15)", 1); // bW:g (t:JPanel, q:I)
+selectCodeEditor ("Monitor", 977, 103); // K:aR (JPanel:JComponent, bT:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(16..31)", 2); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(32..47)", 3); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "General Options", 0); // bW:g (t:JPanel, q:I)
+// Elapsed time: 26 seconds
+selectTab ((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bT:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 79 seconds
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Completed"); // O:af (bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+// [Engine Memory]: 4,335 mb (+25452kb) [00:16:54]
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 10:53:15 AM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// Elapsed time: 19 seconds
+selectCodeEditor ("model.v", 7, 471); // aR:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor ("model.v", 77, 473, false, false, false, true, false); // aR:G (JPanel:JComponent, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// Elapsed time: 87 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, vio_0 (vio_0.xci)]", 14); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, vio_0 (vio_0.xci)]", 14, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_OPEN_EXAMPLE, "Open IP Example Design..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// x:X (bT:JFrame): Open IP Example Design: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:X)
+dismissDialog ("Open IP Example Design"); // x:X (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 164 mb (+7101kb) [00:19:12]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 167 mb (+3419kb) [00:19:12]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: open_example_project -force -dir /home/nourhan/Documents/AccDNN/build/ips_prj [get_ips  vio_0] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Examples' target for IP 'vio_0'... 
+// cb:I (bT:JFrame):  Open IP Example Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_example_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:29 . Memory (MB): peak = 5021.777 ; gain = 0.000 
+// Elapsed time: 28 seconds
+dismissDialog ("Open IP Example Design"); // cb:I (bT:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 170 mb (+3125kb) [00:20:05]
+// [GUI Memory]: 171 mb (+872kb) [00:20:07]
+// Elapsed time: 29 seconds
+selectCodeEditor ("model.v", 921, 494); // aR:G (JPanel:JComponent, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 3); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+// [GUI Memory]: 172 mb (+786kb) [00:20:22]
+// [GUI Memory]: 172 mb (+859kb) [00:23:27]
+// Elapsed time: 233 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dma"); // j:am (c:JComboBox, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2); // w:Q (v:u, bT:JFrame)
+// b:aG (bT:JFrame): Add Sources: addNotify
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aG)
+selectButton (PAResourceQtoZ.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:aG)
+// Elapsed time: 20 seconds
+setFileChooser ("/home/nourhan/Documents/AccDNN/sim/lib/ddr3_dma/ddr3_dma_engineer.v");
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:aG)
+// 'd' command handler elapsed time: 26 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse /home/nourhan/Documents/AccDNN/sim/lib/ddr3_dma/ddr3_dma_engineer.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ddr3_dma_engineer (ddr3_dma_engineer.v)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ddr3_dma_engineer (ddr3_dma_engineer.v)]", 2, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// aA:I (bT:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:I)
+dismissDialog ("Remove Sources"); // aA:I (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/imports/ddr3_dma/ddr3_dma_engineer.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..15)", 1); // bW:g (t:JPanel, q:I)
+selectButton (PAResourceQtoZ.StaleMoreAction_OUT_OF_DATE_DETAILS, "more info"); // h:j (JPanel:JComponent, bT:JFrame)
+// Synthesis Out-of-Date Due to: show
+selectButton (RDIResource.HPopup_CLOSE, (String) null); // j:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+// Synthesis Out-of-Date Due to: hide
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1); // w:Q (v:u, bT:JFrame)
+// Project Settings: addNotify
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f:g (e:JPanel, bT:JFrame)
+// [GUI Memory]: 173 mb (+175kb) [00:25:42]
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2); // u:SortableTable (JPanel:JComponent, bT:JFrame)
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2, false, false, false, false, true); // u:SortableTable (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2); // u:SortableTable (JPanel:JComponent, bT:JFrame)
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2); // u:SortableTable (JPanel:JComponent, bT:JFrame)
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2, false, false, false, false, true); // u:SortableTable (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+selectTable (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "I/O ; 1743 ; 125 ; 1394", 2); // u:SortableTable (JPanel:JComponent, bT:JFrame)
+// [GUI Memory]: 177 mb (+4636kb) [00:25:48]
+// [GUI Memory]: 179 mb (+1926kb) [00:25:55]
+// [GUI Memory]: 181 mb (+1817kb) [00:26:00]
+// [GUI Memory]: 181 mb (+301kb) [00:28:30]
+// Elapsed time: 208 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:I)
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 1); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 1); // aH:f (JViewport:JComponent, aC:X)
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// [GUI Memory]: 187 mb (+5898kb) [00:29:35]
+// [GUI Memory]: 188 mb (+1808kb) [00:29:42]
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 11:06:21 AM
+// Elapsed time: 72 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// cb:I (bT:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// q:I (bT:JFrame): Re-customize IP: addNotify
+dismissDialog ("Re-customize IP"); // cb:I (bT:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..15)", 1); // bW:g (t:JPanel, q:I)
+setText ("PROBE_IN0", "4"); // bX:am (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "General Options", 0); // bW:g (t:JPanel, q:I)
+setText ("Input  Probe  Count", "1"); // bX:am (t:JPanel, q:I)
+setText ("Output Probe Count", "1"); // bX:am (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..0)", 1); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..0)", 2); // bW:g (t:JPanel, q:I)
+setText ("PROBE_OUT0", "2"); // bX:am (t:JPanel, q:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:I)
+// Tcl Message: set_property -dict [list CONFIG.C_NUM_PROBE_IN {1} CONFIG.C_NUM_PROBE_OUT {1} CONFIG.C_PROBE_IN0_WIDTH {4} CONFIG.C_PROBE_OUT0_WIDTH {2}] [get_ips vio_0] 
+// TclEventType: FILESET_UPDATE_IP
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+selectButton (PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // a:JButton (JPanel:JComponent, aC:X)
+// R:X (bT:JFrame): Out-of-Context Settings: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectComboBox (PAResourceItoP.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // c:JComboBox (aE:JPanel, R:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, R:X)
+dismissDialog ("Out-of-Context Settings"); // R:X (bT:JFrame)
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'... 
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 191 mb (+2544kb) [00:31:29]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+// Elapsed time: 41 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 191 mb (+152kb) [00:32:15]
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vio", true); // j:am (c:JComboBox, bT:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vio"); // j:am (c:JComboBox, bT:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vi", true); // j:am (c:JComboBox, bT:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vi"); // j:am (c:JComboBox, bT:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vi"); // j:am (c:JComboBox, bT:JFrame)
+// Elapsed time: 24 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vio"); // j:am (c:JComboBox, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 4,335 mb (+4kb) [00:32:56]
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu May 18 12:09:16 2023] Launched synth_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_1/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// [GUI Memory]: 192 mb (+1113kb) [00:33:12]
+// [GUI Memory]: 197 mb (+5181kb) [00:33:19]
+// Elapsed time: 59 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 38 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // j:am (c:JComboBox, bT:JFrame)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 197 mb (+336kb) [00:34:39]
+// [GUI Memory]: 200 mb (+2802kb) [00:34:39]
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Thu May 18 12:11:00 2023] Launched impl_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/impl_1/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+// [GUI Memory]: 202 mb (+1788kb) [00:34:42]
+// [GUI Memory]: 205 mb (+4084kb) [00:34:44]
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "model.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+selectButton (PAResourceQtoZ.StateMonitor_CANCEL, "Cancel"); // a:JButton (v:JPanel, bT:JFrame)
+// bw:I (bT:JFrame): Cancel Implementation: addNotify
+selectButton (PAResourceQtoZ.StateMonitor_RESET_STEP, "Reset Step"); // a:JButton (JPanel:JComponent, bw:I)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  -noclean_dir 
+dismissDialog ("Cancel Implementation"); // bw:I (bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 13, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// aA:I (bT:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:I)
+dismissDialog ("Remove Sources"); // aA:I (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0/vio_0.xci 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 206 mb (+769kb) [00:35:03]
+// [GUI Memory]: 206 mb (+232kb) [00:35:03]
+// [GUI Memory]: 207 mb (+154kb) [00:35:03]
+// [GUI Memory]: 207 mb (+232kb) [00:35:03]
+// [GUI Memory]: 207 mb (+232kb) [00:35:03]
+// [GUI Memory]: 207 mb (+233kb) [00:35:03]
+// [GUI Memory]: 207 mb (+232kb) [00:35:03]
+// [GUI Memory]: 208 mb (+154kb) [00:35:03]
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 3); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // cb:I (bT:JFrame)
+// cb:I (bT:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // cb:I (bT:JFrame)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 247); // F:aj (JViewport:JComponent, bT:JFrame)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "VIO (Virtual Input/Output) ;  ; Production ; Included ; xilinx.com:ip:vio:3.0", 247, false, false, false, false, true); // F:aj (JViewport:JComponent, bT:JFrame) - DOUBLE CLICK
+// TclEventType: PARAM_UPDATED
+// cb:I (bT:JFrame):  Customize IP : addNotify
+// q:I (bT:JFrame): Customize IP: addNotify
+// [GUI Memory]: 210 mb (+2049kb) [00:35:14]
+dismissDialog ("Customize IP"); // cb:I (bT:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..0)", 1); // bW:g (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..0)", 2); // bW:g (t:JPanel, q:I)
+// [GUI Memory]: 217 mb (+7655kb) [00:35:20]
+selectCheckBox (PAResourceQtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // v:JCheckBox (bA:t, q:I): FALSE
+// Elapsed time: 71 seconds
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_IN Ports(0..0)", 1); // bW:g (t:JPanel, q:I)
+setText ("PROBE_IN0", "4"); // bX:am (t:JPanel, q:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..0)", 2); // bW:g (t:JPanel, q:I)
+// Elapsed time: 12 seconds
+setText ("PROBE_OUT0", "2"); // bX:am (t:JPanel, q:I)
+// Elapsed time: 12 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:I)
+// TclEventType: CREATE_IP_CORE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name vio -vendor xilinx.com -library ip -module_name vio_0 
+// cb:I (q:I):  Customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.C_PROBE_IN0_WIDTH {4} CONFIG.C_PROBE_OUT0_WIDTH {2}] [get_ips vio_0] 
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 218 mb (+884kb) [00:37:03]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vio_0'... 
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+selectButton (PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // a:JButton (JPanel:JComponent, aC:X)
+// R:X (bT:JFrame): Out-of-Context Settings: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, R:X)
+dismissDialog ("Out-of-Context Settings"); // R:X (bT:JFrame)
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: generate_target all [get_files  /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0_0/vio_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'vio_0'. Target already exists and is up to date. INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vio_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 220 mb (+1995kb) [00:37:20]
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vio_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vio_0'... 
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1, false, false, false, false, true); // o:f (u:JPanel, bT:JFrame) - DOUBLE CLICK
+// Elapsed time: 25 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "v"); // j:am (c:JComboBox, bT:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor ("model.v", 225, 61); // aR:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor ("model.v", 225, 61, false, false, false, true, false); // aR:G (JPanel:JComponent, bT:JFrame) - POPUP TRIGGER
+// Elapsed time: 48 seconds
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+collapseTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, model (model.v)]", 1); // o:f (u:JPanel, bT:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "vio"); // j:am (c:JComboBox, bT:JFrame)
+selectCodeEditor ("model.v", 42, 546); // aR:G (JPanel:JComponent, bT:JFrame)
+// Elapsed time: 13 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+// Elapsed time: 10 seconds
+selectMenuItem (PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// R:X (bT:JFrame): Out-of-Context Settings: addNotify
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog ("Out-of-Context Settings"); // R:X (bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// R:X (bT:JFrame): Out-of-Context Settings: addNotify
+dismissDialog ("Out-of-Context Settings"); // R:X (bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// aC:X (bT:JFrame): Generate Output Products: addNotify
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2, false, false, false, false, true); // aH:f (JViewport:JComponent, aC:X) - DOUBLE CLICK
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2, false, false, false, false, true); // aH:f (JViewport:JComponent, aC:X) - DOUBLE CLICK
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 2); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 3); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 3, false, false, false, false, true); // aH:f (JViewport:JComponent, aC:X) - DOUBLE CLICK
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 4); // aH:f (JViewport:JComponent, aC:X)
+selectTree (PAResourceQtoZ.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, vio_0.xci]", 4, false, false, false, false, true); // aH:f (JViewport:JComponent, aC:X) - DOUBLE CLICK
+// Elapsed time: 28 seconds
+selectButton (PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // a:JButton (JPanel:JComponent, aC:X)
+// R:X (bT:JFrame): Out-of-Context Settings: addNotify
+selectComboBox (PAResourceItoP.NumJobsChooser_NUMBER_OF_JOBS, "8", 7); // c:JComboBox (aE:JPanel, R:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, R:X)
+dismissDialog ("Out-of-Context Settings"); // R:X (bT:JFrame)
+selectButton (PAResourceQtoZ.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aC:X)
+// cb:I (bT:JFrame):  Managing Output Products : addNotify
+// 'aG' command handler elapsed time: 43 seconds
+dismissDialog ("Managing Output Products"); // cb:I (bT:JFrame)
+// Elapsed time: 16 seconds
+selectButton (PAResourceQtoZ.StaleMoreAction_OUT_OF_DATE_DETAILS, "more info"); // h:j (JPanel:JComponent, bT:JFrame)
+// Synthesis Out-of-Date Due to: show
+selectButton (PAResourceQtoZ.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h:j (JPanel:JComponent, ResizableWindow:JWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:Q (v:u, bT:JFrame)
+// aT:X (bT:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aT:X)
+// cb:I (bT:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+dismissDialog ("Save Project"); // aT:X (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Thu May 18 12:18:20 2023] Launched synth_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_1/runme.log 
+// 'q' command handler elapsed time: 4 seconds
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 220 mb (+176kb) [00:42:01]
+// [GUI Memory]: 220 mb (+215kb) [00:42:01]
+// [GUI Memory]: 220 mb (+215kb) [00:42:01]
+// [GUI Memory]: 220 mb (+217kb) [00:42:01]
+// [GUI Memory]: 223 mb (+2320kb) [00:43:05]
+// [GUI Memory]: 224 mb (+961kb) [00:43:07]
+// Elapsed time: 66 seconds
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+// [GUI Memory]: 229 mb (+5843kb) [00:43:07]
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 40 seconds
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Completed"); // O:af (bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f:g (e:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vio_0 (vio_0.xci)]", 2, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// aA:I (bT:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:I)
+dismissDialog ("Remove Sources"); // aA:I (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/vio_0_0/vio_0.xci 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 231 mb (+2095kb) [00:44:01]
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (y:aC, bT:JFrame)
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (y:aC, bT:JFrame)
+// Elapsed time: 12 seconds
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (y:aC, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, mul16_unsigned]", 20); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, mul16x16_signed]", 21); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, mul24x8_signed]", 22); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, mul16_signed]", 1); // o:f (u:JPanel, bT:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, mul16_signed]", 1, false, false, false, true, false); // o:f (u:JPanel, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae:JMenu (al:JPopupMenu, bT:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// aA:I (bT:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aA:I)
+dismissDialog ("Remove Sources"); // aA:I (bT:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files -fileset mul16_signed /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.srcs/sources_1/ip/mul16_signed/mul16_signed.xci 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// Tcl Message: delete_fileset mul16_signed 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 233 mb (+1826kb) [00:44:36]
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (y:aC, bT:JFrame)
+// [GUI Memory]: 235 mb (+2622kb) [00:44:50]
+// [GUI Memory]: 238 mb (+2670kb) [00:44:53]
+// Elapsed time: 18 seconds
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // g:JideTabbedPane (y:aC, bT:JFrame)
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Thu May 18 12:21:31 2023] Launched synth_1... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_1/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// [GUI Memory]: 240 mb (+2083kb) [00:46:27]
+// Elapsed time: 104 seconds
+selectCodeEditor ("Monitor", 556, 156); // K:aR (JPanel:JComponent, bT:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor ("Monitor", 559, 92); // K:aR (JPanel:JComponent, bT:JFrame)
+selectCodeEditor ("Monitor", 559, 92, false, false, false, false, true); // K:aR (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+selectCodeEditor ("Monitor", 559, 92); // K:aR (JPanel:JComponent, bT:JFrame)
+selectCodeEditor ("Monitor", 559, 92, false, false, false, true, false); // K:aR (JPanel:JComponent, bT:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.PACodeView_COPY, "Copy"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// Elapsed time: 47 seconds
+selectTab ((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bT:JFrame)
+selectTab ((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bT:JFrame)
+maximizeFrame (PAResourceItoP.PAViews_COMPILATION, "Log"); // ah:DockableFrame (FrameContainer:JideTabbedPane, bT:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Synthesis Completed: addNotify
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Synthesis Completed"); // O:af (bT:JFrame)
+// Elapsed time: 16 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // j:am (c:JComboBox, bT:JFrame)
+// Elapsed time: 14 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "engine_ddr_read_addr"); // j:am (c:JComboBox, bT:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // j:am (c:JComboBox, bT:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // j:am (c:JComboBox, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1); // w:Q (v:u, bT:JFrame)
+// Project Settings: addNotify
+// [GUI Memory]: 241 mb (+912kb) [00:48:50]
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false, false, false, false, true); // w:Q (v:u, bT:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 241 mb (+337kb) [00:48:57]
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // ah:DockableFrame (FrameContainer:JideTabbedPane, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceItoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b:g (JPanel:JComponent, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceItoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b:g (JPanel:JComponent, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f:g (e:JPanel, bT:JFrame)
+selectTab (PAResourceAtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (y:aC, bT:JFrame)
+selectButton (PAResourceQtoZ.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "200 warnings"); // h:j (JPanel:JComponent, bT:JFrame)
+// Elapsed time: 10 seconds
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 2); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 2, false, false, false, true, false); // O:f (JViewport:JComponent, bT:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceItoP.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // ae:JMenu (z:JPopupMenu, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 8); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 7); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 6); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 5); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 4); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 3); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 2); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 3); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 4); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 5); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 6); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 7); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 8); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[17] ) is unused and will be removed from module controller_v2_a.. ]", 9); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[18] ) is unused and will be removed from module controller_v2_a.. ]", 10); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[19] ) is unused and will be removed from module controller_v2_a.. ]", 11); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 12); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 13); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[22] ) is unused and will be removed from module controller_v2_a.. ]", 14); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[23] ) is unused and will be removed from module controller_v2_a.. ]", 15); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[24] ) is unused and will be removed from module controller_v2_a.. ]", 16); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[25] ) is unused and will be removed from module controller_v2_a.. ]", 17); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[26] ) is unused and will be removed from module controller_v2_a.. ]", 18); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[27] ) is unused and will be removed from module controller_v2_a.. ]", 19); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[28] ) is unused and will be removed from module controller_v2_a.. ]", 20); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[29] ) is unused and will be removed from module controller_v2_a.. ]", 21); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[30] ) is unused and will be removed from module controller_v2_a.. ]", 22); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[31] ) is unused and will be removed from module controller_v2_a.. ]", 23); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[31] ) is unused and will be removed from module controller_v2_a.. ]", 24); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[30] ) is unused and will be removed from module controller_v2_a.. ]", 25); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[29] ) is unused and will be removed from module controller_v2_a.. ]", 26); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[28] ) is unused and will be removed from module controller_v2_a.. ]", 27); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[27] ) is unused and will be removed from module controller_v2_a.. ]", 28); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[26] ) is unused and will be removed from module controller_v2_a.. ]", 29); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[25] ) is unused and will be removed from module controller_v2_a.. ]", 30); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[24] ) is unused and will be removed from module controller_v2_a.. ]", 31); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[23] ) is unused and will be removed from module controller_v2_a.. ]", 32); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[22] ) is unused and will be removed from module controller_v2_a.. ]", 33); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 34); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 35); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[19] ) is unused and will be removed from module controller_v2_a.. ]", 36); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[18] ) is unused and will be removed from module controller_v2_a.. ]", 37); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[17] ) is unused and will be removed from module controller_v2_a.. ]", 38); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 39); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 40); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 41); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 42); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 43); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 44); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 45); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[31] ) is unused and will be removed from module controller_v2_a.. ]", 46); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[30] ) is unused and will be removed from module controller_v2_a.. ]", 47); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[29] ) is unused and will be removed from module controller_v2_a.. ]", 48); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[28] ) is unused and will be removed from module controller_v2_a.. ]", 49); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[27] ) is unused and will be removed from module controller_v2_a.. ]", 50); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[26] ) is unused and will be removed from module controller_v2_a.. ]", 51); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[25] ) is unused and will be removed from module controller_v2_a.. ]", 52); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[24] ) is unused and will be removed from module controller_v2_a.. ]", 53); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[23] ) is unused and will be removed from module controller_v2_a.. ]", 54); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[22] ) is unused and will be removed from module controller_v2_a.. ]", 55); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 56); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 57); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[19] ) is unused and will be removed from module controller_v2_a.. ]", 58); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[18] ) is unused and will be removed from module controller_v2_a.. ]", 59); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[17] ) is unused and will be removed from module controller_v2_a.. ]", 60); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 61); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 62); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 63); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 64); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 65); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 66); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\k_d2_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 67); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[31] ) is unused and will be removed from module controller_v2_a.. ]", 68); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[30] ) is unused and will be removed from module controller_v2_a.. ]", 69); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[29] ) is unused and will be removed from module controller_v2_a.. ]", 70); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[28] ) is unused and will be removed from module controller_v2_a.. ]", 71); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[27] ) is unused and will be removed from module controller_v2_a.. ]", 72); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[26] ) is unused and will be removed from module controller_v2_a.. ]", 73); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[25] ) is unused and will be removed from module controller_v2_a.. ]", 74); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[24] ) is unused and will be removed from module controller_v2_a.. ]", 75); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[23] ) is unused and will be removed from module controller_v2_a.. ]", 76); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[22] ) is unused and will be removed from module controller_v2_a.. ]", 77); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 78); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 79); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[19] ) is unused and will be removed from module controller_v2_a.. ]", 80); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[18] ) is unused and will be removed from module controller_v2_a.. ]", 81); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[17] ) is unused and will be removed from module controller_v2_a.. ]", 82); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 83); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 84); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 85); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 86); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 87); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 88); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_rd_addr_tmp_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 89); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[10] ) is unused and will be removed from module controller_v2_a.. ]", 90); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[11] ) is unused and will be removed from module controller_v2_a.. ]", 91); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[12] ) is unused and will be removed from module controller_v2_a.. ]", 92); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[13] ) is unused and will be removed from module controller_v2_a.. ]", 93); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[14] ) is unused and will be removed from module controller_v2_a.. ]", 94); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[15] ) is unused and will be removed from module controller_v2_a.. ]", 95); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[16] ) is unused and will be removed from module controller_v2_a.. ]", 96); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[17] ) is unused and will be removed from module controller_v2_a.. ]", 97); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[18] ) is unused and will be removed from module controller_v2_a.. ]", 98); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[19] ) is unused and will be removed from module controller_v2_a.. ]", 99); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 100); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 101); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[14] to constant 0. ]", 102); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[13] to constant 0. ]", 103); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[12] to constant 0. ]", 104); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[11] to constant 0. ]", 105); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[10] to constant 0. ]", 106); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[9] to constant 0. ]", 107); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[8] to constant 0. ]", 108); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[7] to constant 0. ]", 109); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[6] to constant 0. ]", 110); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[5] to constant 0. ]", 111); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[0] to constant 0. ]", 112); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[14] to constant 0. ]", 113); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[13] to constant 0. ]", 114); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[12] to constant 0. ]", 115); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[11] to constant 0. ]", 116); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[10] to constant 0. ]", 117); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[9] to constant 0. ]", 118); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[8] to constant 0. ]", 119); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[7] to constant 0. ]", 120); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[6] to constant 0. ]", 121); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[5] to constant 0. ]", 122); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[6] to constant 0. ]", 121); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[7] to constant 0. ]", 120); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[8] to constant 0. ]", 119); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[9] to constant 0. ]", 118); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[10] to constant 0. ]", 117); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[11] to constant 0. ]", 116); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[12] to constant 0. ]", 115); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[13] to constant 0. ]", 114); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d2_orig_inferred :in0[14] to constant 0. ]", 113); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[0] to constant 0. ]", 112); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[5] to constant 0. ]", 111); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[6] to constant 0. ]", 110); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[7] to constant 0. ]", 109); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[8] to constant 0. ]", 108); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[9] to constant 0. ]", 107); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[10] to constant 0. ]", 106); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[11] to constant 0. ]", 105); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[12] to constant 0. ]", 104); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[13] to constant 0. ]", 103); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin \\u0_ddr_read_delay/ddr_read_ack_d1_orig_inferred :in0[14] to constant 0. ]", 102); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 101); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[20] ) is unused and will be removed from module controller_v2_a.. ]", 100); // O:f (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceItoP.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\rm_wr_addr_base_reg[21] ) is unused and will be removed from module controller_v2_a.. ]", 101); // O:f (JViewport:JComponent, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceItoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f:g (e:JPanel, bT:JFrame)
+// Elapsed time: 105 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1); // w:Q (v:u, bT:JFrame)
+// Project Settings: addNotify
+selectButton ((HResource) null, "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bg)
+// [GUI Memory]: 243 mb (+1699kb) [00:51:38]
+// [Engine Memory]: 4,336 mb (+1048kb) [00:51:45]
+// Elapsed time: 14 seconds
+selectButton ((HResource) null, "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bg)
+// Elapsed time: 38 seconds
+selectButton ((HResource) null, "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, j:bg)
+selectButton ((HResource) null, "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bg)
+// af:bw (bT:JFrame): Create New Run: addNotify
+// [GUI Memory]: 244 mb (+999kb) [00:52:39]
+selectButton (RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, af:bw)
+// b:I (bT:JFrame): Create Run: addNotify
+dismissDialog ("Create New Run"); // af:bw (bT:JFrame)
+dismissDialog ("Create New Run"); // af:bw (bT:JFrame)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, b:I)
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 246 mb (+2201kb) [00:52:44]
+// Tcl Message: create_run synth_2 -flow {Vivado Synthesis 2013} -strategy {Vivado Synthesis Defaults} 
+// Tcl Message: Run is defaulting to srcset: sources_1 Run is defaulting to constrset: constrs_1 Run is defaulting to part: xc7z020clg400-1 
+// Tcl Message: current_run [get_runs synth_2] 
+// Tcl Message: set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode out_of_context} -objects [get_runs synth_2] 
+dismissDialog ("Create Run"); // b:I (bT:JFrame)
+// Elapsed time: 29 seconds
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bg)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bT:JFrame)
+// [GUI Memory]: 246 mb (+576kb) [00:53:20]
+// [GUI Memory]: 247 mb (+853kb) [00:53:20]
+// [GUI Memory]: 249 mb (+1707kb) [00:53:20]
+// [GUI Memory]: 249 mb (+360kb) [00:53:20]
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; xc7z020clg400-1 ; constrs_1 ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 2); // Y:aj (JViewport:JComponent, bT:JFrame)
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; xc7z020clg400-1 ; constrs_1 ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; Not started ; 0 ;  ; 00:00:00 ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 2); // Y:aj (JViewport:JComponent, bT:JFrame)
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; xc7z020clg400-1 ; constrs_1 ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 2, false, false, false, false, true); // Y:aj (JViewport:JComponent, bT:JFrame) - DOUBLE CLICK
+selectTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; xc7z020clg400-1 ; constrs_1 ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 2); // Y:aj (JViewport:JComponent, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:Q (v:u, bT:JFrame)
+// cb:I (bT:JFrame):  Resetting Runs : addNotify
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_2 -jobs 8 
+// Tcl Message: [Thu May 18 12:29:48 2023] Launched synth_2... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/synth_2/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+// [GUI Memory]: 251 mb (+1622kb) [00:54:05]
+// [GUI Memory]: 251 mb (+492kb) [00:54:39]
+// [GUI Memory]: 254 mb (+2555kb) [00:54:40]
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 94 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// cb:I (bT:JFrame):  Starting Design runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -jobs 8 
+// Tcl Message: [Thu May 18 12:31:22 2023] Launched impl_2... Run output will be captured here: /home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.runs/impl_2/runme.log 
+dismissDialog ("Starting Design runs"); // cb:I (bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceItoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b:g (JPanel:JComponent, bT:JFrame)
+selectTab (PAResourceItoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceItoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b:g (JPanel:JComponent, bT:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 19); // w:Q (v:u, bT:JFrame)
+// 'g' command handler elapsed time: 3 seconds
+selectButton ((HResource) null, "Cancel"); // JButton:AbstractButton (JPanel:JComponent, V:JDialog)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 116 seconds
+expandTreeTable (PAResourceAtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; xc7z020clg400-1 ; constrs_1 ; Vivado Synthesis Defaults (Vivado Synthesis 2013) ;  ; synth_design Complete! ; 100 ; Thu May 18 11:29:48 EET 2023 ; 00:01:30 ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 2); // Y:aj (JViewport:JComponent, bT:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 11:36:22 AM
+// TclEventType: RUN_COMPLETED
+// O:af (bT:JFrame): Implementation Completed: addNotify
+// Elapsed time: 622 seconds
+dismissDialog ("Implementation Completed"); // O:af (bT:JFrame)
+// Elapsed time: 678 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ab:JideMenu (CommandMenuBar:CommandBar, bT:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // ae:JMenu (JPopupMenu:JComponent, bT:JFrame)
+selectMenu (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ae:JMenu (JPopupMenu:JComponent, bT:JFrame)
+selectMenu (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ae:JMenu (JPopupMenu:JComponent, bT:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands..."); // ah:JMenuItem (JPopupMenu:JComponent, bT:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ab:JideMenu (CommandMenuBar:CommandBar, bT:JFrame)
+// g:X (bT:JFrame): Customize Commands: addNotify
+// 'L' command handler elapsed time: 7 seconds
+dismissDialog ("Customize Commands"); // g:X (bT:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ab:JideMenu (CommandMenuBar:CommandBar, bT:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // ae:JMenu (JPopupMenu:JComponent, bT:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ab:JideMenu (CommandMenuBar:CommandBar, bT:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 24, 142, false, false, false, true, false); // dC:G (JPanel:JComponent, bT:JFrame) - POPUP TRIGGER
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 10, 137); // dC:G (JPanel:JComponent, bT:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_PASTE, "Paste"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+applyEnter (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}"); // P:am (z:L, bT:JFrame)
+// Tcl Command: 'compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}'
+// Tcl Message: compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim} 
+// Tcl Message: Setting smulator 'modelsim' output directory to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim'.  Setting up the simulator 'modelsim' for compilation ... The executable path is set to '/home/nourhan/intelFPGA/20.1/modelsim_ase/bin' ... Encrypted File /home/nourhan/Vivado/2013.4/data/vhdl/src/unisims/unisim_retarget_VCOMP.vhdp. 
+// cb:I (bT:JFrame):  Tcl Command Line : addNotify
+// Tcl Message: Generating the file - '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/.compedklib_ise_info' for EDK ... Retrieving the .pao files for EDK library ... 
+// Tcl Message: Building the library hierarchies from the .pao files for EDK library ... 
+// Tcl Message: Assigning the netlist files to the hierarchies for EDK library ... 
+// Tcl Message:    Compiling Xilinx HDL Libraries for 'modelsim' simulator Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020 Language => 'vhdl,verilog' The modelsim.ini file not found, create it. 
+// Tcl Message: Output directory => '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim'  Library verilog.secureip will be compiled, because no precompiled info. --> Compiling verilog.secureip library ...     > verilog.secureip library compiled from /home/nourhan/Vivado/2013.4/data/secureip     > verilog.secureip library compiled to /home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/secureip 
+// Tcl Message:     > Log file '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/secureip/.cxl.verilog.secureip.secureip.lin64.log' generated Library verilog.secureip:verilog.axi_bfm will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling vhdl.unisim library ...     > vhdl.unisim library compiled from /home/nourhan/Vivado/2013.4/data/vhdl/src/unisims     > vhdl.unisim library compiled to /home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/unisim     > Log file '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/unisim/.cxl.vhdl.unisim.unisim.lin64.log' generated Library vhdl.unisim:vhdl.unimacro will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling verilog.simprim library ...     > verilog.simprim library compiled from /home/nourhan/Vivado/2013.4/data/verilog/src/unisims     > verilog.simprim library compiled to /home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/simprims_ver 
+// Tcl Message: Library edk:proc_common_v3_00_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:v_tc_v5_00_a library ...     > edk:v_tc_v5_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_tc_v5_00_a/data/v_tc_v2_1_0.pao'     > edk:v_tc_v5_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_tc_v5_00_a' 
+// Tcl Message: compile_simlib[edk:v_tc_v5_00_a]: 2 error(s), 1 warning(s), 1.53 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_tc_v5_00_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_tc_v5_00_a)' in the log file compile_simlib.log for details of compilation error(s).  Exclude Superseded EDK child library v_ccm_v5_00_a. Library edk:axi_datamover_v3_00_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:v_deinterlacer_v3_00_a library ...     > edk:v_deinterlacer_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_deinterlacer_v3_00_a/data/v_deinterlacer_v2_1_0.pao'     > edk:v_deinterlacer_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_deinterlacer_v3_00_a' 
+// Tcl Message: --> Compiling edk:block_plus_v1_10_a library ...     > edk:block_plus_v1_10_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//block_plus_v1_10_a/data/block_plus_v2_1_0.pao'     > edk:block_plus_v1_10_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/block_plus_v1_10_a' 
+// Tcl Message: compile_simlib[edk:block_plus_v1_10_a]: 2 error(s), 1 warning(s), 12.25 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::block_plus_v1_10_a)' and 'END_COMPILATION_MESSAGES(modelsim::block_plus_v1_10_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:virtex6_pcie_v1_01_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_pcie_v1_08_a library ...     > edk:axi_pcie_v1_08_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_pcie_v1_08_a/data/axi_pcie_v2_1_0.pao'     > edk:axi_pcie_v1_08_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_pcie_v1_08_a' 
+// Tcl Message: --> Compiling edk:v_tc_v5_01_a library ...     > edk:v_tc_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_tc_v5_01_a/data/v_tc_v2_1_0.pao'     > edk:v_tc_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_tc_v5_01_a' 
+// Tcl Message: compile_simlib[edk:v_tc_v5_01_a]: 2 error(s), 1 warning(s), 18.82 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_tc_v5_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_tc_v5_01_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:v_ic_v3_00_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:v_ic_v3_00_a library ...     > edk:v_ic_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_ic_v3_00_a/data/v_ic_v2_1_0.pao'     > edk:v_ic_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_ic_v3_00_a' 
+// Tcl Message: --> Compiling edk:lib_common_v1_01_a library ...     > edk:lib_common_v1_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//lib_common_v1_01_a/data/lib_common_v2_1_0.pao'     > edk:lib_common_v1_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/lib_common_v1_01_a' 
+// Tcl Message: compile_simlib[edk:axi_ethernet_avb_wrap_v3_00_a]: 2 error(s), 1 warning(s), 20.57 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::axi_ethernet_avb_wrap_v3_00_a)' and 'END_COMPILATION_MESSAGES(modelsim::axi_ethernet_avb_wrap_v3_00_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:axi_ethernet_pcs_pma_wrap_v3_00_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_ethernet_pcs_pma_wrap_v3_00_a library ...     > edk:axi_ethernet_pcs_pma_wrap_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_pcs_pma_wrap_v3_00_a/data/axi_ethernet_pcs_pma_wrap_v2_1_0.pao'     > edk:axi_ethernet_pcs_pma_wrap_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_pcs_pma_wrap_v3_00_a' 
+// Tcl Message: --> Compiling edk:block_plus_v1_13_a library ...     > edk:block_plus_v1_13_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//block_plus_v1_13_a/data/block_plus_v2_1_0.pao'     > edk:block_plus_v1_13_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/block_plus_v1_13_a' 
+// Tcl Message: compile_simlib[edk:spartan6_pcie_v1_04_a]: 2 error(s), 0 warning(s), 22.10 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::spartan6_pcie_v1_04_a)' and 'END_COMPILATION_MESSAGES(modelsim::spartan6_pcie_v1_04_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:virtex6_pcie_v1_06_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_ethernet_soft_temac_wrap_v3_01_a library ...     > edk:axi_ethernet_soft_temac_wrap_v3_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_soft_temac_wrap_v3_01_a/data/axi_ethernet_soft_temac_wrap_v2_1_0.pao'     > edk:axi_ethernet_soft_temac_wrap_v3_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_soft_temac_wrap_v3_01_a' 
+// Tcl Message: compile_simlib[edk:axi_ethernet_v3_01_a]: 2 error(s), 0 warning(s), 23.19 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::axi_ethernet_v3_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::axi_ethernet_v3_01_a)' in the log file compile_simlib.log for details of compilation error(s).  Exclude Superseded EDK child library fit_timer_v1_01_b. Library edk:v_stats_v5_01_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:v_stats_v5_01_a library ...     > edk:v_stats_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_stats_v5_01_a/data/v_stats_v2_1_0.pao'     > edk:v_stats_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_stats_v5_01_a' 
+// Tcl Message: --> Compiling edk:axi_enhanced_pcie_v1_00_a library ...     > edk:axi_enhanced_pcie_v1_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_enhanced_pcie_v1_00_a/data/axi_enhanced_pcie_v2_1_0.pao'     > edk:axi_enhanced_pcie_v1_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_enhanced_pcie_v1_00_a' 
+// Tcl Message: --> Compiling edk:eth_stat_wrap_v2_03_a library ...     > edk:eth_stat_wrap_v2_03_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//eth_stat_wrap_v2_03_a/data/eth_stat_wrap_v2_1_0.pao'     > edk:eth_stat_wrap_v2_03_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/eth_stat_wrap_v2_03_a' 
+// Tcl Message: --> Compiling edk:axi_ethernet_pcs_pma_wrap_v1_01_a library ...     > edk:axi_ethernet_pcs_pma_wrap_v1_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_pcs_pma_wrap_v1_01_a/data/axi_ethernet_pcs_pma_wrap_v2_1_0.pao'     > edk:axi_ethernet_pcs_pma_wrap_v1_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_pcs_pma_wrap_v1_01_a' 
+// Tcl Message: --> Compiling edk:v_scaler_v7_01_a library ...     > edk:v_scaler_v7_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_scaler_v7_01_a/data/v_scaler_v2_1_0.pao'     > edk:v_scaler_v7_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_scaler_v7_01_a' 
+// Tcl Message: --> Compiling edk:axi_pcie_mm_s_v1_02_a library ...     > edk:axi_pcie_mm_s_v1_02_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_pcie_mm_s_v1_02_a/data/axi_pcie_mm_s_v2_1_0.pao'     > edk:axi_pcie_mm_s_v1_02_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_pcie_mm_s_v1_02_a' 
+// Tcl Message: --> Compiling edk:axi_enhanced_pcie_v1_04_a library ...     > edk:axi_enhanced_pcie_v1_04_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/axi_enhanced_pcie_v1_04_a/data/axi_enhanced_pcie_v2_1_0.pao'     > edk:axi_enhanced_pcie_v1_04_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_enhanced_pcie_v1_04_a' 
+// Tcl Message: --> Compiling edk:block_plus_v1_10_b library ...     > edk:block_plus_v1_10_b library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/block_plus_v1_10_b/data/block_plus_v2_1_0.pao'     > edk:block_plus_v1_10_b library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/block_plus_v1_10_b' 
+// Tcl Message: --> Compiling edk:v_gamma_v6_01_a library ...     > edk:v_gamma_v6_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_gamma_v6_01_a/data/v_gamma_v2_1_0.pao'     > edk:v_gamma_v6_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_gamma_v6_01_a' 
+// Tcl Message: --> Compiling edk:v_osd_v5_01_a library ...     > edk:v_osd_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_osd_v5_01_a/data/v_osd_v2_1_0.pao'     > edk:v_osd_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_osd_v5_01_a' 
+// Tcl Message: compile_simlib: Time (s): cpu = 00:02:35 ; elapsed = 00:02:16 . Memory (MB): peak = 5024.844 ; gain = 0.000 
+// Elapsed time: 136 seconds
+dismissDialog ("Tcl Command Line"); // cb:I (bT:JFrame)
+// Elapsed time: 24 seconds
+selectTab (PAResourceItoP.LogView_TABBED_PANE, (HResource) null, "Simulation", 2); // g:JideTabbedPane (k:aC, bT:JFrame)
+selectTab (PAResourceItoP.LogView_TABBED_PANE, (HResource) null, "Synthesis", 0); // g:JideTabbedPane (k:aC, bT:JFrame)
+// Elapsed time: 267 seconds
+selectMenuItem (RDIResourceCommand.RDICommands_PASTE, "Paste"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// Elapsed time: 28 seconds
+setText (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase/bin/} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}", true); // P:am (z:L, bT:JFrame)
+// Tcl Command: 'compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase/bin/} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}'
+// Tcl Message: compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase/bin/} -family all -language all -library all -dir {/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim} 
+// Tcl Message: compile_simlib tcltask - begin ... Reading the configuration file - '/home/nourhan/Vivado/2013.4/data/parts/xilinx/compxlib/compxlib_defaults.acd' ... Reading the compile_simlib configuration file - 'compile_simlib.cfg' ... 
+// Tcl Message: Generating the file - '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/.compedklib_ise_info' for EDK ... Retrieving the .pao files for EDK library ... Building the library hierarchies from the .pao files for EDK library ... 
+// cb:I (bT:JFrame):  Tcl Command Line : addNotify
+// Tcl Message: Assigning the netlist files to the hierarchies for EDK library ... 
+// Tcl Message:    Compiling Xilinx HDL Libraries for 'modelsim' simulator Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020 Language => 'vhdl,verilog' Output directory => '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim'   Library verilog.secureip will be compiled, because precompiled info is outdated. 
+// Tcl Message: compile_simlib[edk:v_tc_v5_00_a]: 2 error(s), 1 warning(s), 1.53 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_tc_v5_00_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_tc_v5_00_a)' in the log file compile_simlib.log for details of compilation error(s).  Exclude Superseded EDK child library v_ccm_v5_00_a.  Library edk:axi_datamover_v3_00_a will be compiled, because precompiled info is outdated. 
+// Tcl Message: --> Compiling edk:v_deinterlacer_v3_00_a library ...     > edk:v_deinterlacer_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_deinterlacer_v3_00_a/data/v_deinterlacer_v2_1_0.pao'     > edk:v_deinterlacer_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_deinterlacer_v3_00_a' 
+// Tcl Message: compile_simlib[edk:block_plus_v1_10_a]: 2 error(s), 1 warning(s), 12.25 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::block_plus_v1_10_a)' and 'END_COMPILATION_MESSAGES(modelsim::block_plus_v1_10_a)' in the log file compile_simlib.log for details of compilation error(s).   Library edk:virtex6_pcie_v1_01_a will be compiled, because precompiled info is outdated. 
+// Tcl Message: --> Compiling edk:v_tc_v5_01_a library ...     > edk:v_tc_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_tc_v5_01_a/data/v_tc_v2_1_0.pao'     > edk:v_tc_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_tc_v5_01_a' 
+// Tcl Message: compile_simlib[edk:v_ic_v3_00_a]: 2 error(s), 1 warning(s), 19.04 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_ic_v3_00_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_ic_v3_00_a)' in the log file compile_simlib.log for details of compilation error(s).   Library edk:hwicap_v6_00_a will be compiled, because precompiled info is outdated. 
+// Tcl Message: --> Compiling edk:axi_ethernet_avb_wrap_v3_00_a library ...     > edk:axi_ethernet_avb_wrap_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_avb_wrap_v3_00_a/data/axi_ethernet_avb_wrap_v2_1_0.pao'     > edk:axi_ethernet_avb_wrap_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_avb_wrap_v3_00_a' 
+// Tcl Message: --> Compiling edk:v_cfa_v6_01_a library ...     > edk:v_cfa_v6_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_cfa_v6_01_a/data/v_cfa_v2_1_0.pao'     > edk:v_cfa_v6_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_cfa_v6_01_a' 
+// Tcl Message: compile_simlib[edk:v_stats_v5_01_a]: 2 error(s), 1 warning(s), 23.63 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_stats_v5_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_stats_v5_01_a)' in the log file compile_simlib.log for details of compilation error(s).   Library edk:axi_ethernet_pcs_pma_wrap_v2_01_a will be compiled, because precompiled info is outdated. 
+// Tcl Message: --> Compiling edk:axi_ethernet_pcs_pma_wrap_v2_01_a library ...     > edk:axi_ethernet_pcs_pma_wrap_v2_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_pcs_pma_wrap_v2_01_a/data/axi_ethernet_pcs_pma_wrap_v2_1_0.pao'     > edk:axi_ethernet_pcs_pma_wrap_v2_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_pcs_pma_wrap_v2_01_a' 
+// Tcl Message: --> Compiling edk:axi_ethernet_avb_wrap_v2_01_a library ...     > edk:axi_ethernet_avb_wrap_v2_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_avb_wrap_v2_01_a/data/axi_ethernet_avb_wrap_v2_1_0.pao'     > edk:axi_ethernet_avb_wrap_v2_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_avb_wrap_v2_01_a' 
+// Tcl Message: --> Compiling edk:v_objseg_v3_00_a library ...     > edk:v_objseg_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_objseg_v3_00_a/data/v_objseg_v2_1_0.pao'     > edk:v_objseg_v3_00_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_objseg_v3_00_a' 
+// Tcl Message: --> Compiling edk:v_spc_v6_01_a library ...     > edk:v_spc_v6_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_spc_v6_01_a/data/v_spc_v2_1_0.pao'     > edk:v_spc_v6_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_spc_v6_01_a' 
+// Tcl Message: --> Compiling edk:axi_ethernet_pcs_pma_wrap_v1_01_a library ...     > edk:axi_ethernet_pcs_pma_wrap_v1_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_pcs_pma_wrap_v1_01_a/data/axi_ethernet_pcs_pma_wrap_v2_1_0.pao'     > edk:axi_ethernet_pcs_pma_wrap_v1_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_pcs_pma_wrap_v1_01_a' 
+// Tcl Message: --> Compiling edk:v_scaler_v7_01_a library ...     > edk:v_scaler_v7_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_scaler_v7_01_a/data/v_scaler_v2_1_0.pao'     > edk:v_scaler_v7_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_scaler_v7_01_a' 
+// Tcl Message: --> Compiling edk:block_plus_v1_10_b library ...     > edk:block_plus_v1_10_b library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/block_plus_v1_10_b/data/block_plus_v2_1_0.pao'     > edk:block_plus_v1_10_b library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/block_plus_v1_10_b' 
+// Tcl Message: --> Compiling edk:v_osd_v5_01_a library ...     > edk:v_osd_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_osd_v5_01_a/data/v_osd_v2_1_0.pao'     > edk:v_osd_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_osd_v5_01_a' 
+// Tcl Message: --> Compiling edk:gig_ethernet_pcs_pma_v11_05_a library ...     > edk:gig_ethernet_pcs_pma_v11_05_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/gig_ethernet_pcs_pma_v11_05_a/data/gig_ethernet_pcs_pma_v2_1_0.pao'     > edk:gig_ethernet_pcs_pma_v11_05_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/gig_ethernet_pcs_pma_v11_05_a' 
+// Tcl Message: compile_simlib[edk:v_noise_v5_01_a]: 2 error(s), 1 warning(s), 85.78 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_noise_v5_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_noise_v5_01_a)' in the log file compile_simlib.log for details of compilation error(s).   Library edk:axi_pcie_mm_s_v1_04_a will be compiled, because precompiled info is outdated. 
+// Tcl Message: --> Compiling edk:v_ccm_v5_01_a library ...     > edk:v_ccm_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores/v_ccm_v5_01_a/data/v_ccm_v2_1_0.pao'     > edk:v_ccm_v5_01_a library compiled to '/home/nourhan/Desktop/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_ccm_v5_01_a' 
+// HMemoryUtils.trashcanNow. Current time: 5/18/23 12:06:24 PM
+// Tcl Message: compile_simlib: Time (s): cpu = 00:02:46 ; elapsed = 00:02:11 . Memory (MB): peak = 5024.844 ; gain = 0.000 
+// Elapsed time: 132 seconds
+dismissDialog ("Tcl Command Line"); // cb:I (bT:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 514, 35); // dC:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 514, 35, false, false, false, false, true); // dC:G (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 514, 35); // dC:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 504, 65); // dC:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 504, 65, false, false, false, false, true); // dC:G (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 504, 65); // dC:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 502, 127); // dC:G (JPanel:JComponent, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 502, 127, false, false, false, false, true); // dC:G (JPanel:JComponent, bT:JFrame) - DOUBLE CLICK
+// Elapsed time: 15 seconds
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sec"); // j:am (c:JComboBox, bT:JFrame)
+selectCodeEditor (RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 493, 43); // dC:G (JPanel:JComponent, bT:JFrame)
+// Elapsed time: 13 seconds
+selectMenuItem (RDIResourceCommand.RDICommands_PASTE, "Paste"); // ah:JMenuItem (al:JPopupMenu, bT:JFrame)
+// Elapsed time: 46 seconds
+setText (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}", true); // P:am (z:L, bT:JFrame)
+// Tcl Command: 'compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim}'
+// Tcl Message: compile_simlib -simulator modelsim -simulator_exec_path {/home/nourhan/intelFPGA/20.1/modelsim_ase} -family all -language all -library all -dir {/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim} 
+// Tcl Message: compile_simlib tcltask - begin ... Reading the configuration file - '/home/nourhan/Vivado/2013.4/data/parts/xilinx/compxlib/compxlib_defaults.acd' ... Reading the compile_simlib configuration file - 'compile_simlib.cfg' ... 
+// Tcl Message: Generating the file - '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/.compedklib_ise_info' for EDK ... Retrieving the .pao files for EDK library ... Building the library hierarchies from the .pao files for EDK library ... 
+// cb:I (bT:JFrame):  Tcl Command Line : addNotify
+// Tcl Message: Assigning the netlist files to the hierarchies for EDK library ... 
+// Tcl Message:    Compiling Xilinx HDL Libraries for 'modelsim' simulator Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020 Language => 'vhdl,verilog' Output directory => '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim'  
+// Tcl Message: Directory '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim' is created. Library verilog.secureip will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:v_tc_v5_00_a library ...     > edk:v_tc_v5_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_tc_v5_00_a/data/v_tc_v2_1_0.pao'     > edk:v_tc_v5_00_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_tc_v5_00_a' 
+// Tcl Message: --> Compiling edk:block_plus_v1_10_a library ...     > edk:block_plus_v1_10_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//block_plus_v1_10_a/data/block_plus_v2_1_0.pao'     > edk:block_plus_v1_10_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/block_plus_v1_10_a' 
+// Tcl Message: --> Compiling edk:v_tc_v5_01_a library ...     > edk:v_tc_v5_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_tc_v5_01_a/data/v_tc_v2_1_0.pao'     > edk:v_tc_v5_01_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_tc_v5_01_a' 
+// Tcl Message: compile_simlib[edk:v_ic_v3_00_a]: 2 error(s), 1 warning(s), 19.04 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_ic_v3_00_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_ic_v3_00_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:hwicap_v6_00_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_ethernet_avb_wrap_v3_00_a library ...     > edk:axi_ethernet_avb_wrap_v3_00_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_avb_wrap_v3_00_a/data/axi_ethernet_avb_wrap_v2_1_0.pao'     > edk:axi_ethernet_avb_wrap_v3_00_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_avb_wrap_v3_00_a' 
+// Tcl Message: --> Compiling edk:v_cfa_v6_01_a library ...     > edk:v_cfa_v6_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//v_cfa_v6_01_a/data/v_cfa_v2_1_0.pao'     > edk:v_cfa_v6_01_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/v_cfa_v6_01_a' 
+// Tcl Message: compile_simlib[edk:v_stats_v5_01_a]: 2 error(s), 1 warning(s), 23.63 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::v_stats_v5_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::v_stats_v5_01_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:axi_ethernet_pcs_pma_wrap_v2_01_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_ethernet_pcs_pma_wrap_v2_01_a library ...     > edk:axi_ethernet_pcs_pma_wrap_v2_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_pcs_pma_wrap_v2_01_a/data/axi_ethernet_pcs_pma_wrap_v2_1_0.pao'     > edk:axi_ethernet_pcs_pma_wrap_v2_01_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_pcs_pma_wrap_v2_01_a' 
+// Tcl Message: compile_simlib[edk:axi_ethernet_stat_wrap_v2_01_a]: 2 error(s), 1 warning(s), 37.42 % complete  INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim::axi_ethernet_stat_wrap_v2_01_a)' and 'END_COMPILATION_MESSAGES(modelsim::axi_ethernet_stat_wrap_v2_01_a)' in the log file compile_simlib.log for details of compilation error(s).  Library edk:axi_ethernet_avb_wrap_v1_01_a will be compiled, because no precompiled info. 
+// Tcl Message: --> Compiling edk:axi_ethernet_avb_wrap_v1_01_a library ...     > edk:axi_ethernet_avb_wrap_v1_01_a library compiled from '/home/nourhan/Vivado/2013.4/ids_lite/EDK/hw/XilinxProcessorIPLib/pcores//axi_ethernet_avb_wrap_v1_01_a/data/axi_ethernet_avb_wrap_v2_1_0.pao'     > edk:axi_ethernet_avb_wrap_v1_01_a library compiled to '/home/nourhan/Documents/AccDNN/build/ips_prj/ips_prj.cache/compile_simlib/modelsim/edk/axi_ethernet_avb_wrap_v1_01_a' 
+// Tcl Message: compile_simlib: Time (s): cpu = 00:02:05 ; elapsed = 00:01:47 . Memory (MB): peak = 5024.844 ; gain = 0.000 
+// Elapsed time: 107 seconds
+dismissDialog ("Tcl Command Line"); // cb:I (bT:JFrame)
